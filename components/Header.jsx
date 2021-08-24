@@ -38,7 +38,7 @@ const Header = () => {
                 {usuario ? (
                     <>
                     <div className="flex items-center ">
-                        <p className="mr-2">Hola {usuario.nombre}</p>
+                        <p className="mr-2 text-red-500 font-bold">Hola {usuario.nombre}</p>
                         <button 
                             type="button"
                             className="bg-black px-5 py-3 rounded-lg text-white font-bold uppercase"
